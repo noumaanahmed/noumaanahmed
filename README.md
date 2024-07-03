@@ -42,10 +42,11 @@ My name is Noumaan Ahmed and I am a student and a full stack web developer. I am
 
 ## Recent Activity
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+![Metrics](https://github.com/noumaanahmed/noumaanahmed/blob/main/metrics-activity.svg)
+
 
 ## My GitHub Metrics
 
-![Metrics](https://github.com/noumaanahmed/noumaanahmed/blob/main/github-metrics.svg)
+![Metrics](https://github.com/noumaanahmed/noumaanahmed/blob/main/metrics-general.svg)
+
 
