@@ -1,27 +1,26 @@
 name: Generate Metrics
 
 on:
-  # Schedule updates (each hour)
-  schedule: 
-    - cron: "0 * * * *"
-  # Lines below let you run workflow manually and on each commit
-  push: 
+  workflow_dispatch:
+  push:
     branches:
       - main
-      - metrics
-  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
 
-jobs:
-  generate-metrics-activity:
+jobs:   
+  stats:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: Metrics embed with activity
+      - name: Generate Stats Metrics
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: metrics
+          committer_message: "build: update `metrics-activity.svg`"
           user: noumaanahmed
           template: classic
           base: header, activity
@@ -30,20 +29,45 @@ jobs:
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
+          output: metrics-activity.svg
 
+      - name: Display generated files (debugging step)
+        run: ls -la
 
-  generate-metrics-general:
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add metrics-activity.svg
+          git commit -m "Update metrics-activity"
+          git push
+
+  general:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: Metrics embed without activity
+      - name: Generate General Metrics
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: metrics
+          committer_message: "build: update `metrics-general.svg`"
           user: noumaanahmed
           template: classic
           base: header, community, repositories, metadata
           config_timezone: UTC
           config_animations: true
+          output: metrics-general.svg
+
+      - name: Display generated files (debugging step)
+        run: ls -la
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add metrics-general.svg
+          git commit -m "Update metrics-general"
+          git push
