@@ -43,18 +43,6 @@ jobs:
           config_animations: true
           output: metrics-general.svg
 
-      - name: Verify SVG files
-        run: |
-          ls -la
-          if [ ! -f metrics-activity.svg ]; then echo "metrics-activity.svg not found"; exit 1; fi
-          if [ ! -f metrics-general.svg ]; then echo "metrics-general.svg not found"; exit 1; fi
-
-      - name: Update README
-        run: |
-          # Update the README file with the new metrics
-          sed -i '/<!--RECENT_ACTIVITY-->/!b;n;c\<img src="metrics-activity.svg" alt="Recent Activity">' README.md
-          sed -i '/<!--GITHUB_METRICS-->/!b;n;c\<img src="metrics-general.svg" alt="GitHub Metrics">' README.md
-
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
