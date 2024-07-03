@@ -45,12 +45,10 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update Metrics
-          repository: ${{ github.repository }}  # This refers to the current repository
-          branch: ${{ github.ref }}  # This will dynamically use the branch name
+          repository: ${{ github.repository }}
+          branch: ${{ github.ref }}
           commit_user_name: github-actions[bot]
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
           commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          commit_files: |
-            metrics-activity.svg
-            metrics-general.svg
+          file_pattern: metrics-*.svg  # Specify the file pattern to commit
           github_token: ${{ secrets.GITHUB_TOKEN }}
