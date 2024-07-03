@@ -43,6 +43,9 @@ jobs:
           config_animations: true
           output: metrics-general.svg
 
+      - name: Display generated files (debugging step)
+        run: ls -la
+
       - name: Commit and Push Changes
         run: |
           git config --global user.name 'github-actions[bot]'
