@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Northeastern+Student;Full-Stack+Developer;DevOps+Engineer;Gamer;" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Northeastern+Student;Full-Stack+Developer;DevOps+Engineer;" alt="Typing SVG" />
 </p>
 
 
@@ -70,13 +70,21 @@
 <h3 align="center">📈 Git Stats</h3>
 
 <div align="center">
+  
+## General Stats
 ![General Stats](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-general.svg)
+
+<br>
 
 ## Recent Activity
 ![Recent Activity](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-activity.svg)
 
+<br>
+
 ## Languages
 ![Languages](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-languages.svg)
+
+<br>
 
 ## Steam
 ![Steam](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-steam.svg)
