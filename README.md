@@ -5,7 +5,7 @@
 My name is Noumaan Ahmed and I am a student and a full stack web developer. I am currently pursuing a Master's in Information Systems from Northeastern University, Boston.
 
 <div align="right">
-  ![Profile views](https://hits.sh/github.com/noumaanahmed/noumaanahmed.svg)
+  <img src="https://img.shields.io/github/views/noumaanahmed/noumaanahmed?style=for-the-badge" alt="Profile Views">
 </div>
 
 ## Connect with me
