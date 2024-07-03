@@ -43,11 +43,11 @@ My name is Noumaan Ahmed and I am a student and a full stack web developer. I am
 # My GitHub Profile
 
 ## Recent Activity
-<!--RECENT_ACTIVITY-->
+![Recent Activity](https://github.com/noumaanahmed/noumaanahmed/blob/main/metrics-activity.svg)
 <!-- Placeholder for recent activity metrics -->
 
 ## My GitHub Metrics
-<!--GITHUB_METRICS-->
+![GitHub Metrics](https://github.com/noumaanahmed/noumaanahmed/blob/main/metrics-general.svg)
 <!-- Placeholder for GitHub metrics -->
 
 
