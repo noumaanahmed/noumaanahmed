@@ -43,12 +43,3 @@ jobs:
           config_animations: true
           output: metrics-general.svg
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md metrics-activity.svg metrics-general.svg
-          git commit -m 'Update metrics'
-          git push origin ${{ github.ref }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
