@@ -1,12 +1,12 @@
 ### Hi There! Welcome to my GitHub Page 👋
 
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=noumaanahmed&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views">
+</p>
+
 ---
 
 My name is Noumaan Ahmed and I am a student and a full stack web developer. I am currently pursuing a Master's in Information Systems from Northeastern University, Boston.
-
-<div align="right">
-  <img src="https://img.shields.io/github/views/noumaanahmed/noumaanahmed?style=for-the-badge" alt="Profile Views">
-</div>
 
 ## Connect with me
 
