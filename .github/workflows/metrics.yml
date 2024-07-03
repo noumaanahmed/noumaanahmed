@@ -36,8 +36,9 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git config --global user.name 'Your Name'
-          git config --global user.email 'your-email@example.com'
+          git config --global user.name 'noumaanahmed'
+          git config --global user.email 'noumaan.ahmed@outlook.com'
+          git checkout metrics
           git add metrics-activity.svg
           git commit -m "Update metrics-activity"
           git push
