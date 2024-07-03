@@ -42,11 +42,17 @@ My name is Noumaan Ahmed and I am a student and a full stack web developer. I am
 
 # My GitHub Profile
 
+## General Stats
+![General Stats](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-general.svg)
+
 ## Recent Activity
 ![Recent Activity](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-activity.svg)
 
-## My GitHub Metrics
-![GitHub Metrics](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-general.svg)
+## Languages
+![Languages](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-languages.svg)
+
+## Steam
+![Steam](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-steam.svg)
 
 
 
