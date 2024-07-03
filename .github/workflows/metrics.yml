@@ -1,8 +1,10 @@
 name: Generate Metrics
 
 on:
+  # Schedule updates (each hour)
   schedule: 
     - cron: "0 * * * *"
+  # Lines below let you run workflow manually and on each commit
   push: 
     branches:
       - main
@@ -20,7 +22,7 @@ jobs:
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: noumaanahmed
+          user: noumaanahmed # Replace with your GitHub username
           template: classic
           base: header, activity
           config_timezone: UTC
@@ -41,13 +43,18 @@ jobs:
           config_animations: true
           output: metrics-general.svg
 
-      - name: Commit and push metrics
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update Metrics
-          repository: ${{ github.repository }}
-          branch: ${{ github.ref }}
-          commit_user_name: github-actions[bot]
-          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          file_pattern: metrics-*.svg
+      - name: Update README
+        run: |
+          # Update the README file with the new metrics
+          sed -i '/<!--RECENT_ACTIVITY-->/!b;n;c\<img src="metrics-activity.svg" alt="Recent Activity">' README.md
+          sed -i '/<!--GITHUB_METRICS-->/!b;n;c\<img src="metrics-general.svg" alt="GitHub Metrics">' README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md metrics-activity.svg metrics-general.svg
+          git commit -m 'Update metrics'
+          git push origin ${{ github.ref }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
