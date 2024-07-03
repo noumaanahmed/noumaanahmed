@@ -43,3 +43,11 @@ jobs:
           config_animations: true
           output: metrics-general.svg
 
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add metrics-activity.svg metrics-general.svg
+          git commit -m 'Update GitHub Metrics and Recent Activity' || echo "No changes to commit"
+          git push origin metrics
+
