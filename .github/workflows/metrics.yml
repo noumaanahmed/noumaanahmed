@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate-metrics:
+  generate-metrics-activity:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -22,7 +22,7 @@ jobs:
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: noumaanahmed # Replace with your GitHub username
+          user: noumaanahmed
           template: classic
           base: header, activity
           config_timezone: UTC
@@ -30,7 +30,13 @@ jobs:
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
-          output: metrics-activity.svg
+
+
+  generate-metrics-general:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
       - name: Metrics embed without activity
         uses: lowlighter/metrics@v3.34
@@ -41,16 +47,3 @@ jobs:
           base: header, community, repositories, metadata
           config_timezone: UTC
           config_animations: true
-          output: metrics-general.svg
-
-      - name: Display generated files (debugging step)
-        run: ls -la
-
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add metrics-activity.svg metrics-general.svg
-          git commit -m 'Update GitHub Metrics and Recent Activity' || echo "No changes to commit"
-          git push origin metrics
-
