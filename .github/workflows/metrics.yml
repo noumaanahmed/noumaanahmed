@@ -5,7 +5,6 @@ on:
   push:
     branches:
       - main
-      - metrics
   schedule:
     - cron: "0 * * * *"
 
@@ -19,7 +18,7 @@ jobs:
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           committer_branch: metrics
           committer_message: "build: update `metrics-activity.svg`"
           user: noumaanahmed
@@ -37,11 +36,13 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'Your Name'
+          git config --global user.email 'your-email@example.com'
           git add metrics-activity.svg
           git commit -m "Update metrics-activity"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
   general:
     runs-on: ubuntu-latest
@@ -52,7 +53,7 @@ jobs:
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           committer_branch: metrics
           committer_message: "build: update `metrics-general.svg`"
           user: noumaanahmed
@@ -67,8 +68,10 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'noumaanahmed'
+          git config --global user.email 'noumaan.ahmed@outlook.com'
           git add metrics-general.svg
           git commit -m "Update metrics-general"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
