@@ -1,78 +1,51 @@
-name: Generate Metrics
+name: Generate GitHub Metrics
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - metrics
   schedule:
     - cron: "0 * * * *"
 
-jobs:   
-  stats:
+jobs:
+  generate-stats:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
 
-      - name: Generate Stats Metrics
+      - name: Generate General Stats Metrics
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          committer_branch: metrics
-          committer_message: "build: update `metrics-activity.svg`"
-          user: noumaanahmed
-          template: classic
-          base: header, activity
-          config_timezone: UTC
-          config_animations: true
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          output: metrics-activity.svg
-
-      - name: Display generated files (debugging step)
-        run: ls -la
-
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name 'noumaanahmed'
-          git config --global user.email 'noumaan.ahmed@outlook.com'
-          git checkout metrics
-          git add metrics-activity.svg
-          git commit -m "Update metrics-activity"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-
-  general:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Generate General Metrics
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          committer_branch: metrics
-          committer_message: "build: update `metrics-general.svg`"
           user: noumaanahmed
           template: classic
           base: header, community, repositories, metadata
           config_timezone: UTC
           config_animations: true
-          output: metrics-general.svg
+          filename: metrics-general.svg
+
+      - name: Generate Recent Activity Metrics
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: noumaanahmed
+          template: classic
+          base: header, activity
+          config_timezone: UTC
+          config_animations: true
+          filename: metrics-activity.svg
 
       - name: Display generated files (debugging step)
         run: ls -la
 
       - name: Commit and Push Changes
         run: |
-          git config --global user.name 'noumaanahmed'
-          git config --global user.email 'noumaan.ahmed@outlook.com'
-          git add metrics-general.svg
-          git commit -m "Update metrics-general"
+          git config --global user.name 'Your Name'
+          git config --global user.email 'your-email@example.com'
+          git add metrics-general.svg metrics-activity.svg
+          git commit -m "Update Metrics"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
