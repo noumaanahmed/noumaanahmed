@@ -1,21 +1,37 @@
-### Hi There! Welcome to my GitHub Page 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=header" width="100%">
 
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=noumaanahmed&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views">
+<h1 align="center">👋 Hello, I'm Noumaan Ahmed</h1>
+
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Northeastern+Student;Full-Stack+Developer;DevOps+Engineer;" alt="Typing SVG" />
 </p>
 
----
 
-My name is Noumaan Ahmed and I am a student and a full stack web developer. I am currently pursuing a Master's in Information Systems from Northeastern University, Boston.
+<p align="center">
+  Gamer | Tech Enthusiast
+</p>
 
-## Connect with me
 
-- [LinkedIn](https://www.linkedin.com/in/ahmed-noumaan/)
-- [Email](mailto:noumaan.ahmed@outlook.com)
+<div align="center">
 
----
+[![Website](https://img.shields.io/badge/Website-noumaanahmed.com-1abc9c?style=for-the-badge&logo=google-chrome)](https://www.kenangain.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Noumaan%20Ahmed-0077b5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ahmed-noumaan)
 
-## Languages and Tools
+</div>
+
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=noumaanahmed&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views" width="200" height="35">
+</p>
+
+<h2 align="center">🚀 About Me</h2>
+
+👨‍💻 Full-Stack Developer extraordinaire, specializing in Cloud Computing and creating bugs you never knew you needed. With a magical touch in React and NextJS, I excel at crafting user experiences that might load... eventually. 🚀
+
+<br>
+
+<h2 align="center"><a href="https://emoji.gg/emoji/7657-developer"><img src="https://cdn3.emoji.gg/emojis/7657-developer.png" width="23px" height="23px" alt="Developer"></a> &nbsp; Languages and Tools</h2>
 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
@@ -36,16 +52,64 @@ My name is Noumaan Ahmed and I am a student and a full stack web developer. I am
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active%20Directory-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Digital Ocean](https://img.shields.io/badge/Digital%20Ocean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
+![JIRA](https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Packer](https://img.shields.io/badge/Packer-569A31?style=for-the-badge&logo=packer&logoColor=white)
 
 
----
+<br>
 
-## Recent Activity
+<h1 align="center"> 📈 Git Stats </h1>
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+<table>
+  <tr>
+    <td align="center">
+      <h2><a href="https://emoji.gg/emoji/8346-github"><img src="https://cdn3.emoji.gg/emojis/8346-github.png" width="23px" height="23px" alt="GitHub"></a> &nbsp; General</h2>
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-general.svg" alt="General">
+    </td>
+    <td align="center">
+      <h2><a href="https://cdn.jim-nielsen.com/ios/512/activity-2017-09-26.png?rf=1024"><img src="https://cdn.jim-nielsen.com/ios/512/activity-2017-09-26.png?rf=1024" width="23px" height="23px" alt="Recent"></a> &nbsp; Recent Activity</h2>
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-activity.svg" alt="Recent Activity">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <h2><a href="https://www.svgrepo.com/show/294201/coding-programming-language.svg"><img src="https://www.svgrepo.com/show/294201/coding-programming-language.svg" width="23px" height="23px" alt="Languages"></a> &nbsp; Most used languages</h2>
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-languages.svg" alt="Most used languages">
+    </td>
+    <td align="center">
+      <h2><a href="https://p7.hiclipart.com/preview/1009/417/188/steam-computer-icons-desktop-wallpaper-logo-telegram-thumbnail.jpg"><img src="https://p7.hiclipart.com/preview/1009/417/188/steam-computer-icons-desktop-wallpaper-logo-telegram-thumbnail.jpg" width="23px" height="23px" alt="Gamer"></a> &nbsp; Gamer stats</h2>
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-steam.svg" alt="Gamer stats">
+    </td>
+  </tr>
+</table>
 
-## My GitHub Metrics
 
-![Metrics](https://github.com/noumaanahmed/noumaanahmed/blob/main/github-metrics.svg)
+
+<br>
+<br>
+
+<h2 align="center">📫 Let's Connect!</h2>
+<p align="center">
+  <a href="mailto:noumaan.ahmed@outlook.com"><img src="https://img.shields.io/badge/noumaan.ahmed@outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="tel:+14374364786"><img src="https://img.shields.io/badge/Phone%20number-%2B1%20(857--654--7574)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="International Phone"></a>
+  <a href="tel:+919566154950"><img src="https://img.shields.io/badge/Indian%20Phone-%2B91%20(956--615--4950)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Indian Phone"></a>
+</p>
+<div align="center">
+
+  <br>
+  
+⭐️ From [Noumaan Ahmed](https://github.com/noumaanahmed) | Let's squash some bugs (hopefully) ! 🚀
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=footer" width="100%">
 
