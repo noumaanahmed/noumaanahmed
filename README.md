@@ -73,21 +73,21 @@
   <tr>
     <td align="center">
       <h2><a href="https://emoji.gg/emoji/8346-github"><img src="https://cdn3.emoji.gg/emojis/8346-github.png" width="23px" height="23px" alt="GitHub"></a> &nbsp; General</h2>
-      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-general.svg" alt="General">
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/main/metrics-general.svg" alt="General">
     </td>
     <td align="center">
       <h2><a href="https://cdn.jim-nielsen.com/ios/512/activity-2017-09-26.png?rf=1024"><img src="https://cdn.jim-nielsen.com/ios/512/activity-2017-09-26.png?rf=1024" width="23px" height="23px" alt="Recent"></a> &nbsp; Recent Activity</h2>
-      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-activity.svg" alt="Recent Activity">
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/main/metrics-activity.svg" alt="Recent Activity">
     </td>
   </tr>
   <tr>
     <td align="center">
       <h2><a href="https://www.svgrepo.com/show/294201/coding-programming-language.svg"><img src="https://www.svgrepo.com/show/294201/coding-programming-language.svg" width="23px" height="23px" alt="Languages"></a> &nbsp; Most used languages</h2>
-      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-languages.svg" alt="Most used languages">
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/main/metrics-languages.svg" alt="Most used languages">
     </td>
     <td align="center">
       <h2><a href="https://p7.hiclipart.com/preview/1009/417/188/steam-computer-icons-desktop-wallpaper-logo-telegram-thumbnail.jpg"><img src="https://p7.hiclipart.com/preview/1009/417/188/steam-computer-icons-desktop-wallpaper-logo-telegram-thumbnail.jpg" width="23px" height="23px" alt="Gamer"></a> &nbsp; Gamer stats</h2>
-      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-steam.svg" alt="Gamer stats">
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/main/metrics-steam.svg" alt="Gamer stats">
     </td>
   </tr>
 </table>
