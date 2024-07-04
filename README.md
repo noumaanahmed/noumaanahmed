@@ -67,36 +67,37 @@
 
 <br>
 
-<h1 align="center">📈 Git Stats</h3>
+<h1 align="center"> 📈 Git Stats </h1>
 
-<div align="center">
-  
-## <a href="https://emoji.gg/emoji/8346-github"><img src="https://cdn3.emoji.gg/emojis/8346-github.png" width="23px" height="23px" alt="GitHub"></a> &nbsp; General
-![General](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-general.svg)
+<table>
+  <tr>
+    <td align="center">
+      <h2><a href="https://emoji.gg/emoji/8346-github"><img src="https://cdn3.emoji.gg/emojis/8346-github.png" width="23px" height="23px" alt="GitHub"></a> &nbsp; General</h2>
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-general.svg" alt="General">
+    </td>
+    <td align="center">
+      <h2><a href="https://cdn.jim-nielsen.com/ios/512/activity-2017-09-26.png?rf=1024"><img src="https://cdn.jim-nielsen.com/ios/512/activity-2017-09-26.png?rf=1024" width="23px" height="23px" alt="Recent"></a> &nbsp; Recent Activity</h2>
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-activity.svg" alt="Recent Activity">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <h2><a href="https://www.svgrepo.com/show/294201/coding-programming-language.svg"><img src="https://www.svgrepo.com/show/294201/coding-programming-language.svg" width="23px" height="23px" alt="Languages"></a> &nbsp; Most used languages</h2>
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-languages.svg" alt="Most used languages">
+    </td>
+    <td align="center">
+      <h2><a href="https://p7.hiclipart.com/preview/1009/417/188/steam-computer-icons-desktop-wallpaper-logo-telegram-thumbnail.jpg"><img src="https://p7.hiclipart.com/preview/1009/417/188/steam-computer-icons-desktop-wallpaper-logo-telegram-thumbnail.jpg" width="23px" height="23px" alt="Gamer"></a> &nbsp; Gamer stats</h2>
+      <img src="https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-steam.svg" alt="Gamer stats">
+    </td>
+  </tr>
+</table>
+
+
 
 <br>
-
-## <a href="https://cdn.jim-nielsen.com/ios/512/activity-2017-09-26.png?rf=1024"><img src="https://cdn.jim-nielsen.com/ios/512/activity-2017-09-26.png?rf=1024" width="23px" height="23px" alt="Recent"></a> &nbsp; Recent Activity
-![Recent Activity](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-activity.svg)
-
 <br>
 
-
-## <a href="https://www.svgrepo.com/show/294201/coding-programming-language.svg"><img src="https://www.svgrepo.com/show/294201/coding-programming-language.svg" width="23px" height="23px" alt="Recent"></a> &nbsp; Most used languages
-![Most used languages](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-languages.svg)
-
-<br>
-
-
-## <a href="https://p7.hiclipart.com/preview/1009/417/188/steam-computer-icons-desktop-wallpaper-logo-telegram-thumbnail.jpg"><img src="https://p7.hiclipart.com/preview/1009/417/188/steam-computer-icons-desktop-wallpaper-logo-telegram-thumbnail.jpg" width="23px" height="23px" alt="Recent"></a> &nbsp; Gamer stats
-![Gamer stats](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-steam.svg)
-
-</div>
-
-
-<br>
-<br>
-
+<h2 align="center">📫 Let's Connect!</h2>
 <p align="center">
   <a href="mailto:noumaan.ahmed@outlook.com"><img src="https://img.shields.io/badge/noumaan.ahmed@outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="tel:+14374364786"><img src="https://img.shields.io/badge/Phone%20number-%2B1%20(857--654--7574)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="International Phone"></a>
