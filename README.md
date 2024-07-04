@@ -67,31 +67,34 @@
 
 <br>
 
-<h3 align="center">📈 Git Stats</h3>
+<h1 align="center">📈 Git Stats</h3>
 
 <div align="center">
   
-## General Stats
-![General Stats](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-general.svg)
+## <a href="https://emoji.gg/emoji/8346-github"><img src="https://cdn3.emoji.gg/emojis/8346-github.png" width="23px" height="23px" alt="GitHub"></a> &nbsp; General
+![General](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-general.svg)
 
 <br>
 
-## Recent Activity
+## <a href="https://cdn.jim-nielsen.com/ios/512/activity-2017-09-26.png?rf=1024"><img src="https://cdn.jim-nielsen.com/ios/512/activity-2017-09-26.png?rf=1024" width="23px" height="23px" alt="Recent"></a> &nbsp; Recent Activity
 ![Recent Activity](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-activity.svg)
 
 <br>
 
-## Languages
-![Languages](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-languages.svg)
+
+## <a href="https://www.svgrepo.com/show/294201/coding-programming-language.svg"><img src="https://www.svgrepo.com/show/294201/coding-programming-language.svg" width="23px" height="23px" alt="Recent"></a> &nbsp; Most used languages
+![Most used languages](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-languages.svg)
 
 <br>
 
-## Steam
-![Steam](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-steam.svg)
+
+## <a href="https://p7.hiclipart.com/preview/1009/417/188/steam-computer-icons-desktop-wallpaper-logo-telegram-thumbnail.jpg"><img src="https://p7.hiclipart.com/preview/1009/417/188/steam-computer-icons-desktop-wallpaper-logo-telegram-thumbnail.jpg" width="23px" height="23px" alt="Recent"></a> &nbsp; Gamer stats
+![Gamer stats](https://github.com/noumaanahmed/noumaanahmed/blob/metrics/metrics-steam.svg)
 
 </div>
 
 
+<br>
 <br>
 
 <p align="center">
