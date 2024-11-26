@@ -72,8 +72,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#cfe5463</div>
-                                        <div class="message">Updated Netlify Functions</div>
+                                        <div class="sha">#f5c4196</div>
+                                        <div class="message">Firebase v4.0</div>
                                     </div>
                                 </div>
                             </section>
@@ -92,8 +92,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#3e7d0f0</div>
-                                        <div class="message">Updated Firebase functionality</div>
+                                        <div class="sha">#6172c62</div>
+                                        <div class="message">Modified App.js to include Firebase Admin SDK</div>
                                     </div>
                                 </div>
                             </section>
@@ -112,8 +112,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#020c927</div>
-                                        <div class="message">Cleared up manifest.json</div>
+                                        <div class="sha">#dfcba5a</div>
+                                        <div class="message">Netlify functions correction for access</div>
                                     </div>
                                 </div>
                             </section>
@@ -132,8 +132,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#a7342c1</div>
-                                        <div class="message">Changed Description</div>
+                                        <div class="sha">#70edfe6</div>
+                                        <div class="message">Firebase revision v4 cleanup</div>
                                     </div>
                                 </div>
                             </section>
@@ -152,8 +152,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#8b0610d</div>
-                                        <div class="message">Updated Readme and sample images</div>
+                                        <div class="sha">#b3f3f66</div>
+                                        <div class="message">Firebase revision v3</div>
                                     </div>
                                 </div>
                             </section>
