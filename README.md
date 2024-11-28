@@ -15,7 +15,7 @@
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Website-noumaanahmed.netlify.com-1abc9c?style=for-the-badge&logo=google-chrome)](https://www.noumaanahmed.netlify.com/)
+[![Website](https://img.shields.io/badge/Website-noumaanahmed-1abc9c?style=for-the-badge&logo=google-chrome)](https://www.noumaanahmed.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Noumaan%20Ahmed-0077b5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ahmed-noumaan)
 
 </div>
