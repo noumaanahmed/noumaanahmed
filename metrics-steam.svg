@@ -102,15 +102,15 @@
                     </h2>
                     <div class="medias largeable-flex-wrap">
                         <div class="media largeable-width-half">
-                            <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABAAEADASIAAhEBAxEB/8QAGwAAAwEBAQEBAAAAAAAAAAAABQcIBAMGAAL/xAAuEAABAwMDBAEDAgcAAAAAAAABAgMEAAURBhIhBxMiMRQyQXFCgQgzUVJhobH/xAAaAQADAAMBAAAAAAAAAAAAAAADBAUAAQIG/8QAHhEAAgIDAAMBAAAAAAAAAAAAAAECAxESIQQiMSP/2gAMAwEAAhEDEQA/AGU4tKQlbf1A+qwXy6G225+S5gBtO4Z+5ro9LAkb0jwxXgOrFzV8NmGFY3HKvxV6czy9NT2Evq27PXS6PvOAAFRI4oB3sJBHJBo69bxIfWsK8QKwogAujaMgGk5suVwxEH9zcoKVwRzWi1XJy0z2JjYB2rzivrnFSy+vJwAkGsDwy1lPKRzQ89OsdKd01dUTrY3ISRhSQf3o1Ad7hW6favHFKHo9ee9a129w5cYJcP4NNK3S23X0FH0A4o7fBpQygrMd7UwceIGcUquqcgOXlttJJOAaZ11Plk+1cUptXOtr1rGQ6eDtFdWPCI9EMyOFl0xL+A+88MF4YSCKOyOmFxTOjyGiOy6hIPHHqnxH07Bet8PKAB2kn/Vdro18eC01/afE0hZZhlyNXqSvrzQ8iNIy28lakjlAHNLOSksuKQ6eU8HHAFW9MsMOSA4+2FJI+/vNTL1jsabfqEfFSgIUeMDj961GXTi2vDP3oK1O2W5okKkNrTNQlO0D0PdNplttuSnZ+ofakdoi493VLTTpUtCQAkZ4Bp3NLJeaBG3J4ppvg1SsoM3VW1wAc4GaRHUCdvvTT4OO2v2P8U9ZygH3Cv1tqddbr7smQlPvef8AtGmsohxWsiuumepI+o9IxZDJ/lIDawTk8DFdb5cIQShtySlLaFbjn3Uufw/6jnWnVjcMPEwniElBPGfvVYzkwZDKXVttkn2kpqXLjLdMvUxJnNSLeVNcpxgGpg663dt3UgitnzbAJqgbtNLaFR4SMAc8VKnVptaNcSFOnktpNahLoO/kTL07cxquOFe1Lqg2CPkMgn9VTho1ZRqq3qH3cFURDCnHkL/pTzWUNeCtoBa9y0MRnnnvHanip01E4nuvpzncsrB/NO3rI/2LO18c43EhWKnmfJ7yBk+QJzWQs2RIur1Z6fo8N+vYZSMhKgcVYjaUuRkhYxzUldBorknWRWhOdgBqtU7ktIQoYOaTt+jdHwBXFlKVqLQ+rikT1n0ZMn3RE+CjcogAgD3iqJnRfJJSPEcmgk2MhaNxwrac80D4w847QJD0rGfi6ut7cppTW13ncKpWIhtK2gngEfV9qI3HS9qmrTIdjJS8jkKSAKFuwiw4Ahzekekj3Tauwg/jfnA//9k=" alt="" />
+                            <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABAAEADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABwgFBgIDBAH/xAArEAABAwMDAwMEAwEAAAAAAAABAgMEAAURBhIhB0FREzFhCBQiQiMykSX/xAAYAQADAQEAAAAAAAAAAAAAAAABAgQFA//EAB0RAAMBAQACAwAAAAAAAAAAAAABAgMRBBITISL/2gAMAwEAAhEDEQA/ADypQdKm09xW9LaW2kIUfY1oS402oLTXjs9hiG/JfPCATWldNE8vpyakvtqsEduTc5bcZef7rPH+UPNX9X7dYYihGT93LdGW20HlGfZZ+DQA6m6tm6g1K+jcstBZRtJykAH3xUeu3PvQUEq3qX+JWeTjxUd78KpjpM33q/qu4SvVceiKKVZSEtew7A0RNG9fgIKI1/hKW4kY3t4SKBs+wSIb4K0qSSAQk+5rgTEdDbilcEfp3pJ14wVmPTp29Q73AZmwFhTSjkDOcHxUy44RlKOUYyqli+mnUq4tykWOY6Sl0ZYyf2Jpkg4DnYcoHC6vz0VnCs2zFQ2q5PFU7qxdxa9GSgDhUhJQkirTL3hWBQc+pC4KYs1sYzwXST/lN5DSQc5+wCLjuSJ7baMlxxWR5OaIGldM3kXlmI6yosqAUCRxVf6bsIl6ztSZByPVyQfFN2hqKy80ptpAW2BzjtWLpS6aWU/QAbw3HkXOQ3coymn2EAIHt7cZof3WCWYz5SACScE9/imo1NoyLfJseWChC0ncoAY4x3pddbMFnUk23J7DAx7HntSx+g6SRvR2bAtd0uN4ujbjqLa2HUJbVtJOce9FDSPVNubqr+cn7R/Hp88J+DUDddI2ixdL5M6K063LnoLbhWrIOOeKFGlQtuY2GztGcEnx8VUtHmTpD0rRvQpSwPU7j4oE/UyiLJj26O04DIbXuUAe2KNd9uTFntUq4ylAJbRlWTSe6q1CrUGoX5DjpOVHaM/rniqN9OhcepEW1+VAucV+CCXkqGwD3zTV6ekTrjEiTILyEIWhKXA4M4UBzQO0rpF925R7jKHpBOCEnx5o36PgbWXilSvQUMBKTjB81n6zNI7ZaOSwXW9JttrfkrBXtTghPnzQh0ppB3Ul2lXq7glLiiGgngt4PuryKK10jZhFtlHqer+AzyEHyayskU2Rr04yd6FcrT77j8UfFXGDe+IqPWqEyz0/ZbZKUoZzsHk4pc7CAbgynhKifyPbFMp1ubmztKoTb4qnUEn1No/oKW2wx3JF/hxWklTynNgQPcnxVW66ieL9gu/VC7eP+eI7ilQHl7PTayCo45BqC0r04djuwQyjfcHQHHgsZCEEZGRRV2q1zqSG6uKU2m3qDqFr5StXcVb4Fu3X6VPQkIbU2GgPIHijS9kJtr60VK36ZSlhKHd+xJwo5q2MQ2YzLbTaVJj9yDzUkW0hZKsJA/WsorZff3KwGh2rP+GqopW8qenKiBvWCCQ0PmpmPDb2DAygd68wVq9NpP8AH3rvYUllHpqH4VZEehDevyGr7VpRW0lCFAp/MKGRigHYtHMN9aZq4yEpYiJD6OOConnFHO43FqPGecdOxtpJUtXxSxr6ivTOosVy3Da0qQWiR+4FO30bP8n/2Q==" alt="" />
                             <div class="about">
-                                <div class="name">Five Hearts Under One Roof</div>
+                                <div class="name">Knowledge, or know Lady</div>
                                 <div class="infos">
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/>
                                         </svg>
-                                        Adventure, RPG, Simulation
+                                        Adventure, Indie, RPG, Simulation, Strategy
                                     </div>
                                 </div>
                                 <div class="infos">
@@ -118,7 +118,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7-3.25v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5a.75.75 0 0 1 1.5 0Z"/>
                                         </svg>
-                                        10 hours played
+                                        2 hours played
                                     </div>
                                 </div>
                                 <div class="infos">
@@ -135,7 +135,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                                 <path d="M3.217 6.962A3.75 3.75 0 0 1 0 3.25v-.5C0 1.784.784 1 1.75 1h1.356c.228-.585.796-1 1.462-1h6.864c.647 0 1.227.397 1.462 1h1.356c.966 0 1.75.784 1.75 1.75v.5a3.75 3.75 0 0 1-3.217 3.712 5.014 5.014 0 0 1-2.771 3.117l.144 1.446c.005.05.03.12.114.204.086.087.217.17.373.227.283.103.618.274.89.568.285.31.467.723.467 1.226v.75h1.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H4v-.75c0-.503.182-.916.468-1.226.27-.294.606-.465.889-.568.139-.048.266-.126.373-.227.084-.085.109-.153.114-.204l.144-1.446a5.015 5.015 0 0 1-2.77-3.117ZM4.5 1.568V5.5a3.5 3.5 0 1 0 7 0V1.568a.068.068 0 0 0-.068-.068H4.568a.068.068 0 0 0-.068.068Zm2.957 8.902-.12 1.204c-.093.925-.858 1.47-1.467 1.691a.766.766 0 0 0-.3.176c-.037.04-.07.093-.07.21v.75h5v-.75c0-.117-.033-.17-.07-.21a.766.766 0 0 0-.3-.176c-.609-.221-1.374-.766-1.466-1.69l-.12-1.204a5.064 5.064 0 0 1-1.087 0ZM13 2.5v2.872a2.25 2.25 0 0 0 1.5-2.122v-.5a.25.25 0 0 0-.25-.25H13Zm-10 0H1.75a.25.25 0 0 0-.25.25v.5c0 .98.626 1.813 1.5 2.122Z"/>
                                             </svg>
-                                            0 / 53 achievements unlocked
+                                            0 / 34 achievements unlocked
                                         </div>
                                     </div>
                                 </div>
